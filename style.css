@@ -1,0 +1,191 @@
+    :root {
+        --ctp-base: #1e1e2e;
+        --ctp-mantle: #181825;
+        --ctp-surface0: #313244;
+        --ctp-surface1: #45475a;
+        --ctp-text: #cdd6f4;
+        --ctp-subtext: #bac2de;
+        --ctp-lavender: #b4befe;
+        --ctp-mauve: #cba6f7;
+        --ctp-pink: #f5c2e7;
+        --ctp-blue: #89b4fa;
+    }
+
+    body {
+        background-color: var(--ctp-base);
+        color: var(--ctp-text);
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .body-background {
+        background-color: var(--ctp-mantle);
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+    }
+
+    h1 {
+        color: var(--ctp-lavender);
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 25px;
+        border-bottom: 2px solid var(--ctp-mauve);
+        padding-bottom: 10px;
+    }
+
+
+
+    .content-table {
+        background-color: var(--ctp-surface0);
+        width: 100%;
+        margin: 0 auto;
+        border-collapse: collapse;
+        border-radius: 10px;
+    }
+
+
+    .card {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        background: var(--ctp-surface0);
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        transition: 0.3s;
+        width: 100%;
+    }
+
+
+    .card:hover {
+        box-shadow: 0 8px 16px var(--ctp-mauve);
+        transform: translateY(-2px);
+        background-color: var(--ctp-blue);
+    }
+
+    .card button {
+        background: none;
+        border: none;
+        color: var(--ctp-lavender);
+        font-weight: bold;
+        font-size: 1rem;
+        cursor: pointer;
+        padding: 30px;
+        width: 100%;
+        height: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .card button:hover {
+        color: var(--ctp-pink);
+    }
+
+    .places {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        width: 100%;
+        padding: 0;
+        gap: 16px;
+    }
+
+    .menu {
+        padding: 20px;
+        border-radius: 15px;
+        background-color: var(--ctp-surface1);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    }
+
+
+
+    .menu h3 {
+        margin-top: 0;
+        color: var(--ctp-lavender);
+        text-align: center;
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+
+    .back-button {
+        display: inline-block;
+        padding: 12px 24px;
+        background-color: var(--ctp-surface1);
+        color: var(--ctp-lavender);
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: bold;
+        transition: all 0.3s ease;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        margin-bottom: 20px;
+    }
+
+    .back-button:hover {
+        background-color: var(--ctp-mauve);
+        color: var(--ctp-base);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    }
+
+    .place-table {
+        border-collapse: separate;
+        border-spacing: 0;
+        margin-top: 20px;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    }
+
+    .place-table td {
+        padding: 30px;
+        background-color: var(--ctp-surface1);
+        color: var(--ctp-text);
+        border: none;
+        vertical-align: top;
+    }
+
+    .place-table img {
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        transition: transform 0.3s ease;
+    }
+
+    .place-table img:hover {
+        transform: scale(1.05);
+    }
+
+    h1 {
+        color: var(--ctp-lavender);
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+
+    h2 {
+        margin-top: 0;
+    }
+
+    h3 {
+        color: var(--ctp-pink);
+        margin-top: 25px;
+    }
+
+    ul {
+        line-height: 1.8;
+    }
+
+    ul li {
+        margin-bottom: 8px;
+    }
+
+    .caption {
+        font-size: 0.9rem;
+        color: var(--ctp-subtext);
+    }
+
+    .map-img {
+        max-height: 380px;
+        width: auto;
+        border-radius: 12px;
+    }
