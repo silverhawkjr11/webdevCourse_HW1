@@ -83,8 +83,6 @@
     }
 
     .places {
-        display: flex;
-        flex-direction: column;
         align-items: stretch;
         width: 100%;
         padding: 0;
@@ -97,8 +95,6 @@
         background-color: var(--ctp-surface1);
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
     }
-
-
 
     .menu h3 {
         margin-top: 0;
